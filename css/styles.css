@@ -24,28 +24,58 @@ body {
   list-style: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
-  display: block;
+  display: flex;
   max-width: 1158px;
-  margin: 0 auto;
+  margin-top: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 16px;
+
+
 }
 
 /* Top line */
-.nav-container {
+.block-heder {
+  display: flex;
+}
+
+.container-nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-
+  width: 1158px;
+  height: 72px;
 }
 
 .navigation {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
   background-color: var(--primary-white-color, #ffffff);
 }
 
+.list-nav {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
 .web-logo {
+  display: flex;
+  align-items: center;
   font-family: "Raleway", sans-serif;
   color: #4D5AE5;
   font-size: 18px;
@@ -61,14 +91,10 @@ body {
   color: var(--nav-log-foot-color, #2e2f42);
 }
 
-.naw-list {
-  display: flex;
-  gap: 24px;
-}
-
 .link-nav {
-  display: flex;
-  gap: 40px;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
   color: var(--nav-log-foot-color, #2e2f42);
   font-style: normal;
   font-weight: 500;
@@ -84,7 +110,14 @@ body {
 }
 
 .adress {
+  display: flex;
+  align-items: center;
   font-style: normal;
+}
+
+.list-adres {
+  display: flex;
+
 }
 
 .adress-link {
@@ -105,13 +138,25 @@ body {
 /* 
 main section 
 */
+.block-main {}
 
 /* dark block section */
 .sections-dark {
+  padding: 188px 0;
   background: var(--nav-log-foot-color, #2e2f42);
 }
 
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+}
+
 .title-major {
+  margin-bottom: 48px;
+  margin-left: 274px;
+  margin-right: 274px;
   font-family: 'Roboto', sans-serif;
   color: var(--primary-white-color, #ffffff);
   font-size: 56px;
@@ -123,7 +168,16 @@ main section
   text-align: center;
 }
 
+
 .major-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 32px;
+  gap: 10px;
+  border-radius: 4px;
+  margin-bottom: 48;
+  margin-top: 152;
   background: var(--button-colors, #4d5ae5);
   color: var(--primary-white-color, #ffffff);
   font-family: 'Roboto', sans-serif;
