@@ -10,8 +10,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:ital,wght@1,300;1,900&display=swap"
     rel="stylesheet">
-  <link rel="modern-nofmalize"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <!-- Body -->
@@ -20,30 +21,26 @@
   <div class="container">
     <header class="sections">
       <!--Top Line -->
-      <div class="logo-container">
-        <div class="nav-block">
-          <nav class="navigation">
-            <a class="link web-logo" href="./index.html">Web <span class="link studio-logo">Studio</span></a>
+      <div class="nav-container">
+        <nav class="navigation">
+          <a class="link web-logo" href="./index.html">Web <span class="link studio-logo">Studio</span></a>
+          <ul class="nav-list list">
+            <li><a class="link link-nav" href="./index.html">Studio</a></li>
+            <li><a class="link link-nav" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="link link-nav" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="adress">
+          <ul class="list">
+            <li>
+              <a class=" link adress-link" href="info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a class="link adress-link" href="tel:+110001111111">+11 (000) 111-11-11 </a>
+            </li>
+          </ul>
+        </address>
 
-            <ul class="list">
-              <li><a class="link link-nav" href="./index.html">Studio</a></li>
-              <li><a class="link link-nav" href="./portfolio.html">Portfolio</a></li>
-              <li><a class="link link-nav" href="">Contacts</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="adress-block">
-          <address class="adress">
-            <ul class="list">
-              <li>
-                <a class=" link adress-link" href="info@devstudio.com">info@devstudio.com</a>
-              </li>
-              <li>
-                <a class="link adress-link" href="tel:+110001111111">+11 (000) 111-11-11 </a>
-              </li>
-            </ul>
-          </address>
-        </div>
       </div>
     </header>
 

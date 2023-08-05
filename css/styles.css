@@ -24,10 +24,24 @@ body {
   list-style: none;
 }
 
-.container {}
+.container {
+  display: block;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
 
 /* Top line */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
 .navigation {
+  padding-top: 24px;
+  padding-bottom: 24px;
   background-color: var(--primary-white-color, #ffffff);
 }
 
@@ -47,7 +61,14 @@ body {
   color: var(--nav-log-foot-color, #2e2f42);
 }
 
+.naw-list {
+  display: flex;
+  gap: 24px;
+}
+
 .link-nav {
+  display: flex;
+  gap: 40px;
   color: var(--nav-log-foot-color, #2e2f42);
   font-style: normal;
   font-weight: 500;
