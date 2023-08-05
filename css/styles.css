@@ -1,0 +1,241 @@
+:root {
+  --primary-white-color: #ffffff;
+  --classic-background-color: #f4f4fd;
+  --adres-text-color: #434455;
+  --button-color: #4D5AE5;
+  --nav-log-foot-color: #2e2f42;
+  --brand-color: #404bbf;
+  --prymary-fonts: 'Roboto', sans-serif;
+  --title-font: 'Raleway', sans-serif;
+}
+
+/* base styles */
+body {
+  color: #434455;
+  background-color: #ffffff;
+  font-family: var(--prymary-fonts, 'Roboto', sans-serif);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Top line */
+.navigation {
+  background-color: var(--primary-white-color, #ffffff);
+}
+
+.web-logo {
+  font-family: "Raleway", sans-serif;
+  color: #4D5AE5;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.studio-logo {
+  color: var(--nav-log-foot-color, #2e2f42);
+}
+
+.link-nav {
+  color: var(--nav-log-foot-color, #2e2f42);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5em;
+  /* 150% */
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.link-nav:hover,
+.link-nav:focus {
+  color: #404bbf
+}
+
+.adress {
+  font-style: normal;
+}
+
+.adress-link {
+  color: var(--adres-text-color, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  /* 150% */
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+}
+
+.adress-link:hover,
+.adress-link:focus {
+  color: #404bbf
+}
+
+/* 
+main section 
+*/
+
+/* dark block section */
+.sections-dark {
+  background: var(--nav-log-foot-color, #2e2f42);
+}
+
+.title-major {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-white-color, #ffffff);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  /* 107.143% */
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.major-button {
+  background: var(--button-colors, #4d5ae5);
+  color: var(--primary-white-color, #ffffff);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  /* 107.143% */
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.major-button:hover,
+.major-button:focus {
+  background: var(--brand-color, #404bbf);
+}
+
+
+/* Fatures section */
+.sections-feature {
+  background-color: #FFFFFF;
+}
+
+.title-future {
+  color: var(--nav-log-foot-color, #2e2f42);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  /* 120% */
+  letter-spacing: 0.02em;
+}
+
+.text-desc {
+  color: var(--adres-text-color, #434455);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  /* 150% */
+  letter-spacing: 0.02rem;
+}
+
+/* What are we doing section */
+.section-what-are {
+  background-color: #F4F4FD;
+}
+
+.title-sections {
+  color: var(--nav-log-foot-color, #2e2f42);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11em;
+  /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* Team section */
+.sections-team {
+  background-color: #F4F4FD;
+}
+
+.title-our-team {
+  background-color: #FFFFFF;
+}
+
+/* Footer section */
+.footer {
+  background: var(--nav-log-foot-color, #2e2f42);
+}
+
+.web-logo-footer {
+  color: var(--button-colors, #4d5ae5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.studio-logo-footer {
+  color: #f4f4fd;
+}
+
+.text-desc-foot {
+  color: var(--classic-background-color, #f4f4fd);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  /* 150% */
+  letter-spacing: 0.02rem;
+}
+
+/* Porfolio */
+/* sektion button */
+.button-port-link {
+  color: var(--button-colors, #4d5ae5);
+  background-color: var(--classic-background-color, #f4f4fd);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button-port-link:hover,
+.button-port-link:focus {
+  color: #FFFFFF;
+  background-color: #404bbf;
+}
+
+.title-port-img {
+  color: var(--nav-log-foot-color, #2e2f42);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2em;
+  /* 120% */
+  letter-spacing: 0.02em;
+
+}
+
+.text-desc-port {
+  color: var(--adres-text-color, #434455);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  /* 150% */
+  letter-spacing: 0.02rem;
+}
