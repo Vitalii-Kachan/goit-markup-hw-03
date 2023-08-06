@@ -142,6 +142,7 @@ main section
 
 /* dark block section */
 .sections-dark {
+  display: block;
   padding: 188px 0;
   background: var(--nav-log-foot-color, #2e2f42);
 }
@@ -198,10 +199,26 @@ main section
 
 /* Fatures section */
 .sections-feature {
+  display: block;
+  padding: 0;
   background-color: #FFFFFF;
 }
 
+.furture-container {
+  display: flex;
+}
+
+.future-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-future-desc {
+  gap: 24px;
+}
+
 .title-future {
+  display: flex;
   color: var(--nav-log-foot-color, #2e2f42);
   font-size: 1.25rem;
   font-style: normal;
@@ -212,6 +229,8 @@ main section
 }
 
 .text-desc {
+  display: flex;
+  margin-top: 8;
   color: var(--adres-text-color, #434455);
   font-size: 1rem;
   font-style: normal;
@@ -223,10 +242,44 @@ main section
 
 /* What are we doing section */
 .section-what-are {
+  display: block;
+  margin: 0 auto;
   background-color: #F4F4FD;
 }
 
-.title-sections {
+.container-what-img {
+  display: block;
+  max-width: 1158px;
+  margin-top: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+  flex-direction: row;
+}
+
+.block-image-what {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 72px;
+}
+
+.title-whatare-item {
+  color: var(--nav-log-foot-color, #2e2f42);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11em;
+  /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.block-image-line {}
+
+.title-team-list {
+  margin-bottom: 72px;
   color: var(--nav-log-foot-color, #2e2f42);
   font-size: 36px;
   font-style: normal;
@@ -243,6 +296,37 @@ main section
   background-color: #F4F4FD;
 }
 
+.container-taem {
+  display: block;
+  flex-direction: row;
+  max-width: 1158px;
+  margin-top: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+}
+
+.team-box-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.title-our-team-item {}
+
+.text-desc-team {
+  display: flex;
+  margin-top: 32;
+  margin-bottom: 32px;
+  color: var(--adres-text-color, #434455);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  /* 150% */
+  letter-spacing: 0.02rem;
+}
+
 .title-our-team {
   background-color: #FFFFFF;
 }
@@ -252,7 +336,15 @@ main section
   background: var(--nav-log-foot-color, #2e2f42);
 }
 
+.container-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: start;
+  width: 1158px;
+}
+
 .web-logo-footer {
+  display: flex;
   color: var(--button-colors, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -268,6 +360,8 @@ main section
 }
 
 .text-desc-foot {
+  display: flex;
+  flex-direction: column;
   color: var(--classic-background-color, #f4f4fd);
   font-size: 16px;
   font-style: normal;
