@@ -204,6 +204,7 @@ main section
 
 /* Fatures section */
 .sections-feature {
+  padding: 120px 0;
   display: block;
   background-color: #FFFFFF;
   padding: 120px 0;
@@ -257,6 +258,7 @@ main section
 
 /* What are we doing section */
 .section-what-are {
+  padding: 120px 0;
   display: block;
   margin: 0 auto;
   padding-bottom: 120px;
@@ -293,6 +295,16 @@ main section
   flex-basis: calc((100% - 72px) / 2);
 }
 
+/* Team section */
+.sections-team {
+  padding: 120px 0;
+  background-color: #F4F4FD;
+}
+
+.container-taem {
+  display: block;
+}
+
 .title-team-list {
   margin-bottom: 72px;
   color: var(--nav-log-foot-color, #2e2f42);
@@ -306,30 +318,14 @@ main section
   text-align: center;
 }
 
-/* Team section */
-.sections-team {
-  padding: 120px 0;
-  background-color: #F4F4FD;
-}
-
-.container-taem {
-  display: block;
-  flex-direction: row;
-  max-width: 1158px;
-  margin-top: 0 auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 16px;
-}
-
 .team-box-list {
-  display: flex;
   justify-content: center;
   gap: 24px;
 
 }
 
 .title-our-team {
+  display: block;
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 
