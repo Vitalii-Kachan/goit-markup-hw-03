@@ -14,6 +14,7 @@ body {
   color: #434455;
   background-color: #ffffff;
   font-family: var(--prymary-fonts, 'Roboto', sans-serif);
+  height: auto;
 }
 
 .link {
@@ -43,7 +44,8 @@ body {
   margin-top: 0 auto;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 16px;
+  padding-left: 15px;
+  padding-right: 15px;
 
 
 }
@@ -149,6 +151,8 @@ main section
 
 .container-main {
   display: flex;
+  margin: 0%;
+  padding: 0%;
   flex-direction: column;
   align-content: center;
 
@@ -200,25 +204,31 @@ main section
 /* Fatures section */
 .sections-feature {
   display: block;
-  padding: 0;
   background-color: #FFFFFF;
 }
 
 .furture-container {
   display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 .future-list {
   display: flex;
-  justify-content: space-between;
+  padding: 0%;
+  margin: 0%;
+  gap: 24px;
+  align-content: space-between;
+
 }
 
 .title-future-desc {
-  gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .title-future {
-  display: flex;
   color: var(--nav-log-foot-color, #2e2f42);
   font-size: 1.25rem;
   font-style: normal;
@@ -249,11 +259,6 @@ main section
 
 .container-what-img {
   display: block;
-  max-width: 1158px;
-  margin-top: 0 auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 16px;
   flex-direction: row;
 }
 
@@ -276,7 +281,9 @@ main section
   text-align: center;
 }
 
-.block-image-line {}
+.block-image-line {
+  flex-basis: calc((100% - 72px) / 2);
+}
 
 .title-team-list {
   margin-bottom: 72px;
@@ -312,7 +319,7 @@ main section
   gap: 24px;
 }
 
-.title-our-team-item {}
+.title-our-team {}
 
 .text-desc-team {
   display: flex;
@@ -337,14 +344,11 @@ main section
 }
 
 .container-footer {
-  display: flex;
-  align-items: flex-end;
-  justify-content: start;
-  width: 1158px;
+  display: block;
+  flex-direction: row;
 }
 
 .web-logo-footer {
-  display: flex;
   color: var(--button-colors, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -356,12 +360,16 @@ main section
 }
 
 .studio-logo-footer {
+  display: inline-block;
   color: #f4f4fd;
 }
 
 .text-desc-foot {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  align-items: flex-start;
+  margin-top: 17.5px;
+  width: 264px;
+  height: auto;
   color: var(--classic-background-color, #f4f4fd);
   font-size: 16px;
   font-style: normal;
