@@ -444,8 +444,7 @@ main section
 /* Porfolio */
 /* sektion button */
 .section-but-port {
-  padding: 120px 0;
-  display: block;
+  padding: 96px 0 120px 0 display: block;
 }
 
 .container-but-port {
@@ -486,8 +485,7 @@ main section
 
 /* Images section */
 .section-image {
-  padding: 120px 0;
-  display: block;
+  padding: 96px 0 120px 0 display: block;
 }
 
 .container-img-port {}
