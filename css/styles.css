@@ -165,6 +165,8 @@ main section
 
 .title-major {
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Roboto', sans-serif;
   color: var(--primary-white-color, #ffffff);
   font-size: 56px;
@@ -261,7 +263,6 @@ main section
 
 /* What are we doing section */
 .section-what-are {
-
   padding: 120px 0;
   display: block;
   background-color: #F4F4FD;
@@ -299,15 +300,18 @@ main section
 
 /* Team section */
 .sections-team {
+  display: block;
   padding: 120px 0;
   background-color: #F4F4FD;
 }
 
 .container-taem {
-  display: block;
+  margin-bottom: 72px;
+  flex-direction: row;
 }
 
 .title-team-list {
+  display: block;
   margin-bottom: 72px;
   color: var(--nav-log-foot-color, #2e2f42);
   font-size: 36px;
@@ -321,17 +325,15 @@ main section
 }
 
 .team-box-list {
+  display: flex;
+  justify-content: center;
   justify-content: center;
   gap: 24px;
-
-}
-
-.title-our-team {
-  display: block;
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-
 }
+
+.title-our-team {}
 
 .name-our-team {
   padding: 32px 0;
@@ -357,6 +359,7 @@ main section
 
 /* Footer section */
 .footer {
+  padding: 100px 0;
   background: var(--nav-log-foot-color, #2e2f42);
 }
 
@@ -366,6 +369,7 @@ main section
 }
 
 .web-logo-footer {
+  display: inline-block;
   color: var(--button-colors, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -377,12 +381,12 @@ main section
 }
 
 .studio-logo-footer {
-  display: inline-block;
   color: #f4f4fd;
 }
 
 .text-desc-foot {
   display: block;
+  margin-bottom: 16px;
   align-items: flex-start;
   margin-top: 17.5px;
   width: 264px;
