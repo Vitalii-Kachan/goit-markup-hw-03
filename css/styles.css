@@ -51,7 +51,7 @@ body {
 }
 
 /* Top line */
-.block-heder {
+.block-header {
   display: block;
   border-bottom: 1px solid #e7e9fc;
 }
