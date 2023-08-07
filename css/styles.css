@@ -239,11 +239,13 @@ main section
   line-height: 1.5rem;
   /* 120% */
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .text-desc {
   display: flex;
-  margin-top: 8;
+  margin-top: 8px;
+  text-align: center;
   color: var(--adres-text-color, #434455);
   font-size: 1rem;
   font-style: normal;
@@ -257,11 +259,13 @@ main section
 .section-what-are {
   display: block;
   margin: 0 auto;
+  padding-bottom: 120px;
   background-color: #F4F4FD;
 }
 
 .container-what-img {
   display: block;
+  margin-bottom: 72px;
   flex-direction: row;
 }
 
@@ -285,6 +289,7 @@ main section
 }
 
 .block-image-line {
+  display: block;
   flex-basis: calc((100% - 72px) / 2);
 }
 
@@ -303,6 +308,7 @@ main section
 
 /* Team section */
 .sections-team {
+  padding: 120px 0;
   background-color: #F4F4FD;
 }
 
@@ -320,14 +326,24 @@ main section
   display: flex;
   justify-content: center;
   gap: 24px;
+
 }
 
-.title-our-team {}
+.title-our-team {
+  flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+
+}
+
+.name-our-team {
+  padding: 32px 0;
+
+}
 
 .text-desc-team {
   display: flex;
-  margin-top: 32;
-  margin-bottom: 32px;
+  margin: 32px 0;
+  padding: 8px;
   color: var(--adres-text-color, #434455);
   font-size: 1rem;
   font-style: normal;
