@@ -231,6 +231,7 @@ main section
 }
 
 .title-future {
+  margin-bottom: 8px;
   color: var(--nav-log-foot-color, #2e2f42);
   font-size: 1.25rem;
   font-style: normal;
