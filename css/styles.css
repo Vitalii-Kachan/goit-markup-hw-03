@@ -197,6 +197,7 @@ main section
   /* 107.143% */
   letter-spacing: 0.04em;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .major-button:hover,
@@ -206,11 +207,10 @@ main section
 
 
 /* Fatures section */
-.sections-feature {
+.future-section {
   padding: 120px 0;
   display: block;
   background-color: #FFFFFF;
-  padding: 120px 0;
 }
 
 .furture-container {
@@ -276,7 +276,6 @@ main section
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top: 72px;
 }
 
 .title-whatare-item {
@@ -289,6 +288,7 @@ main section
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .block-image-line {
@@ -327,12 +327,14 @@ main section
 }
 
 .title-our-team {
-  flex-basis: calc((100% - 72px) / 4);
+  background-color: #FFFFFF;
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
 .name-our-team {
   padding: 32px 0;
+
 }
 
 .team-list-name {
@@ -344,6 +346,7 @@ main section
   margin-bottom: 38px;
   text-align: center;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .text-desc-team {
@@ -357,11 +360,9 @@ main section
   line-height: 1.5em;
   /* 150% */
   letter-spacing: 0.02rem;
+  text-align: center;
 }
 
-.title-our-team {
-  background-color: #FFFFFF;
-}
 
 /* Footer section */
 .footer {
@@ -384,10 +385,12 @@ main section
   line-height: 1.17em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 .studio-logo-footer {
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 
 .text-desc-foot {
