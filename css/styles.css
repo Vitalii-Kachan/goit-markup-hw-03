@@ -74,6 +74,7 @@ body {
   gap: 24px;
   margin-top: 24px;
   margin-bottom: 24px;
+  gap: 40px;
 }
 
 .web-logo {
@@ -97,7 +98,6 @@ body {
 
 .link-nav {
   display: block;
-  gap: 40px;
   padding: 24px 0;
   color: var(--nav-log-foot-color, #2e2f42);
   font-style: normal;
