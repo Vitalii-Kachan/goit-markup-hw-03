@@ -52,7 +52,6 @@ body {
 
 /* Top line */
 .block-heder {
-  display: flex;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -161,6 +160,7 @@ main section
 
 .title-major {
   display: block;
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
@@ -182,7 +182,9 @@ main section
   margin-right: auto;
   padding: 16px 32px;
   gap: 10px;
-  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   margin-bottom: 48;
   margin-top: 152;
   background: var(--button-colors, #4d5ae5);
