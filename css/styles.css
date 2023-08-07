@@ -110,18 +110,19 @@ body {
 
 .link-nav:hover,
 .link-nav:focus {
-  color: #404bbf
+  color: #404bbf;
 }
 
 .adress {
   display: flex;
   align-items: center;
   font-style: normal;
+
 }
 
 .list-adres {
   display: flex;
-  gap: 40px
+  gap: 40px;
 }
 
 .adress-link {
@@ -154,16 +155,13 @@ main section
 .container-main {
   display: flex;
   flex-direction: column;
+  justify-items: center;
   align-items: center;
 
 }
 
 .title-major {
-  display: block;
   max-width: 496px;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
   font-family: 'Roboto', sans-serif;
   color: var(--primary-white-color, #ffffff);
   font-size: 56px;
@@ -185,8 +183,7 @@ main section
   min-width: 169px;
   height: 56px;
   border: none;
-  margin-bottom: 48;
-  margin-top: 152;
+  margin-bottom: 48px;
   background: var(--button-colors, #4d5ae5);
   color: var(--primary-white-color, #ffffff);
   font-family: 'Roboto', sans-serif;
@@ -209,6 +206,7 @@ main section
 .sections-feature {
   display: block;
   background-color: #FFFFFF;
+  padding: 120px 0;
 }
 
 .furture-container {
