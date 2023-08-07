@@ -303,7 +303,9 @@ main section
 }
 
 .container-taem {
-  margin-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex-direction: row;
 }
 
@@ -328,8 +330,8 @@ main section
 
 .title-our-team {
   background-color: #FFFFFF;
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .name-our-team {
@@ -345,14 +347,12 @@ main section
   color: var(--navy-blue);
   line-height: 1.2;
   margin-bottom: 38px;
-  text-align: center;
   margin-bottom: 8px;
   text-align: center;
 }
 
-.text-desc-team {
+.desc-name {
   display: flex;
-  margin: 32px 0;
   padding: 8px;
   color: var(--adres-text-color, #434455);
   font-size: 1rem;
