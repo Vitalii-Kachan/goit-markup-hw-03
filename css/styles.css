@@ -126,6 +126,8 @@ body {
 .list-adress {
   display: flex;
   gap: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 .adsress-menu {}
@@ -137,7 +139,8 @@ body {
   line-height: 1.5rem;
   /* 150% */
   letter-spacing: 0.02rem;
-  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
   gap: 40px;
 }
 
@@ -159,6 +162,8 @@ main section
 
 .container-main {
   display: flex;
+  padding: 0 15px;
+  margin: 0 auto;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
@@ -166,8 +171,11 @@ main section
 }
 
 .title-major {
+  display: block;
   margin-bottom: 48px;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Roboto', sans-serif;
   color: var(--primary-white-color, #ffffff);
   font-size: 56px;
@@ -252,7 +260,7 @@ main section
 .text-desc {
   display: flex;
   margin-top: 8px;
-  text-align: center;
+  text-align: start;
   color: var(--adres-text-color, #434455);
   font-size: 1rem;
   font-style: normal;
@@ -333,7 +341,6 @@ main section
 .team-box-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
 }
 
 .title-our-team {
@@ -360,7 +367,6 @@ main section
 }
 
 .desc-name {
-  display: flex;
   padding: 8px;
   color: var(--adres-text-color, #434455);
   font-size: 1rem;
