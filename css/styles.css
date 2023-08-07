@@ -97,8 +97,7 @@ body {
 
 .link-nav {
   display: block;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  gap: 40px;
   padding: 24px 0;
   color: var(--nav-log-foot-color, #2e2f42);
   font-style: normal;
@@ -136,6 +135,7 @@ body {
   /* 150% */
   letter-spacing: 0.02rem;
   text-transform: uppercase;
+  gap: 40px;
 }
 
 .adress-link:hover,
@@ -207,7 +207,7 @@ main section
 
 
 /* Fatures section */
-.future-section {
+.sections-feature {
   padding: 120px 0;
   display: block;
   background-color: #FFFFFF;
@@ -260,7 +260,7 @@ main section
 }
 
 /* What are we doing section */
-.section-what-are {
+.sections-what-are {
   padding: 120px 0;
   display: block;
   background-color: #F4F4FD;
