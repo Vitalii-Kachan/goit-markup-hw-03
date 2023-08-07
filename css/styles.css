@@ -71,10 +71,9 @@ body {
 
 .list-nav {
   display: flex;
-  gap: 24px;
+  gap: 40px;
   margin-top: 24px;
   margin-bottom: 24px;
-  gap: 40px;
 }
 
 .web-logo {
@@ -90,10 +89,12 @@ body {
   /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  cursor: auto;
 }
 
 .studio-logo {
   color: var(--nav-log-foot-color, #2e2f42);
+  cursor: auto;
 }
 
 .link-nav {
@@ -105,7 +106,9 @@ body {
   line-height: 1.5em;
   /* 150% */
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+  gap: 40px;
 }
 
 .link-nav:hover,
