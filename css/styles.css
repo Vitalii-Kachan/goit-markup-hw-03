@@ -50,7 +50,6 @@ img {
 
 /* container */
 .container {
-  display: flex;
   max-width: 1158px;
   margin-top: 0 auto;
   margin-left: auto;
