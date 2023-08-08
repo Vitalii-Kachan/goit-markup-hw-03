@@ -479,11 +479,6 @@ main section
 }
 
 /* Images section */
-.section-image {
-  padding: 96px 0 120px 0 display: block;
-}
-
-.container-img-port {}
 
 .images-list-port {
   display: flex;
