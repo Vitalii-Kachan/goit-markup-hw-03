@@ -45,21 +45,6 @@ img {
   overflow: hidden;
 }
 
-/* card-set */
-.card-set {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 32px;
-  column-gap: 24px;
-
-}
-
-
-
-.card-set-item {
-  width: calc((100% - 48px) / 3);
-}
-
 
 /* container */
 .container {
@@ -460,8 +445,9 @@ main section
 
 .button-port-list {
   display: flex;
+  justify-content: center;
   gap: 24px;
-  margin-top: 168px;
+  margin-bottom: 72px;
 }
 
 .button-port-item {
@@ -504,6 +490,7 @@ main section
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+
 }
 
 .images-link-port {
