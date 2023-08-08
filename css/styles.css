@@ -110,8 +110,6 @@ body {
 
 .list-nav {
   display: flex;
-  margin-top: 24px;
-  margin-bottom: 24px;
   gap: 40px;
 }
 
