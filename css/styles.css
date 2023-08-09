@@ -311,7 +311,7 @@ main section
 }
 
 .block-image-line {
-  flex-basis: calc((100% - 72px) / 2);
+  width: calc((100% - 48px) / 3);
 }
 
 /* Team section */
