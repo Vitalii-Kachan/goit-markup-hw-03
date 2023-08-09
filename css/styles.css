@@ -290,12 +290,6 @@ main section
   flex-direction: row;
 }
 
-.block-image-what {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-
 .title-whatare-item {
   color: var(--nav-log-foot-color, #2e2f42);
   font-size: 36px;
@@ -309,6 +303,16 @@ main section
   margin-bottom: 72px;
   padding: 0;
 }
+
+.block-image-what {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 24px;
+}
+
+
 
 .block-image-line {
   width: calc((100% - 48px) / 3);
