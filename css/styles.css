@@ -286,7 +286,8 @@ main section
 
 .container-what-img {
   display: block;
-  margin-bottom: 72px;
+  margin: 0;
+  padding: 0;
   flex-direction: row;
 }
 
@@ -307,8 +308,7 @@ main section
 .block-image-what {
   display: flex;
   justify-content: center;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 72px;
   gap: 24px;
 }
 
@@ -454,7 +454,6 @@ main section
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-  padding: 0;
 }
 
 .button-port-item {
