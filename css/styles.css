@@ -306,12 +306,11 @@ main section
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  margin 0;
+  margin-bottom: 72px;
   padding: 0;
 }
 
 .block-image-line {
-  display: block;
   flex-basis: calc((100% - 72px) / 2);
 }
 
