@@ -440,7 +440,6 @@ main section
 }
 
 .container-but-port {
-  display: flex;
   justify-content: center;
 }
 
