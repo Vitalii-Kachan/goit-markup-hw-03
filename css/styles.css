@@ -280,14 +280,18 @@ main section
 /* What are we doing section */
 .sections-what-are {
   padding: 120px 0;
-  display: block;
   background-color: #F4F4FD;
 }
 
 .container-what-img {
-  display: block;
-  margin: 0;
-  padding: 0;
+  max-width: 1158px;
+  margin-top: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  flex-direction: column;
+  justify-content: center;
   flex-direction: row;
 }
 
@@ -309,10 +313,9 @@ main section
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
+  padding: 0;
   gap: 24px;
 }
-
-
 
 .block-image-line {
   width: calc((100% - 48px) / 3);
