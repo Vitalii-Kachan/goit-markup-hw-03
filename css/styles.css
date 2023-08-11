@@ -169,16 +169,10 @@ main section
 
 .container-main {
   display: flex;
-  padding: 0 15px;
-  margin: 0 auto;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
 
 }
 
 .title-major {
-  display: block;
   margin-bottom: 48px;
   max-width: 496px;
   margin-left: auto;
@@ -228,7 +222,7 @@ main section
 .sections-feature {
   padding: 120px 0;
   display: block;
-  background-color: #FFFFFF;
+  background-color: var(--primary-white-color, #ffffff);
 }
 
 .furture-container {
@@ -280,7 +274,7 @@ main section
 /* What are we doing section */
 .sections-what-are {
   padding: 120px 0;
-  background-color: #F4F4FD;
+  background-color: var(--primary-white-color, #ffffff);
 }
 
 .container-what-img {
@@ -455,12 +449,10 @@ main section
 .button-port-list {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 24px;
   margin-bottom: 72px;
-}
-
-.button-port-item {
-  width: calc((100% - 48px) / 3);
+  padding: 0;
 }
 
 .button-port-link {
