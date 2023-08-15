@@ -409,17 +409,14 @@ main section
   line-height: 1.17em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 16px;
 }
 
 .studio-logo-footer {
   color: #f4f4fd;
-  margin-bottom: 16px;
 }
 
 .text-desc-foot {
   display: block;
-  margin-bottom: 16px;
   align-items: flex-start;
   margin-top: 17.5px;
   width: 264px;
