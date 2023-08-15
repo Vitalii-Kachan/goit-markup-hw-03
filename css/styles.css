@@ -51,13 +51,8 @@ img {
 /* container */
 .container {
   max-width: 1158px;
-  margin-top: 0 auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-
-
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Top line */
@@ -101,7 +96,9 @@ img {
 }
 
 .list-nav {
-  display: flex;
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 0;
   gap: 40px;
 }
 
@@ -275,7 +272,7 @@ main section
 /* What are we doing section */
 .sections-what-are {
   padding: 120px 0;
-  background-color: #F4F4FD;
+  background-color: #FFFFFF;
 }
 
 .container-what-img {
