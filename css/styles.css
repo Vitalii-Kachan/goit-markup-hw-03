@@ -224,7 +224,7 @@ main section
 .sections-feature {
   padding: 120px 0;
   display: block;
-  background-color: var(--primary-white-color, #ffffff);
+  background-colocolor: #ffffff;
 }
 
 .furture-container {
@@ -276,7 +276,7 @@ main section
 /* What are we doing section */
 .sections-what-are {
   padding: 120px 0;
-  background-color: var(--primary-white-color, #ffffff);
+  background-color: #F4F4FD;
 }
 
 .container-what-img {
@@ -463,10 +463,10 @@ main section
   justify-content: center;
   align-items: center;
   border-radius: 4px;
+  font-family: var(--prymary-fonts, 'Roboto', sans-serif);
   border: 1px solid var(--cornflower, #E7E9FC);
   color: var(--button-colors, #4d5ae5);
   background-color: var(--classic-background-color, #f4f4fd);
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
