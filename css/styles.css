@@ -71,6 +71,7 @@ img {
   justify-content: space-between;
   width: 1158px;
   height: 72px;
+  padding: 0;
 }
 
 .navigation {
