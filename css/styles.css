@@ -54,9 +54,6 @@ button {
   cursor: pointer;
 }
 
-.logo {
-  display: inline-block;
-}
 
 /* reset ends */
 .section {
@@ -372,39 +369,6 @@ main section
   text-align: center;
 }
 
-
-/* Footer section */
-.footer {
-  padding: 100px 0;
-  background: var(--nav-log-foot-color, #2e2f42);
-}
-
-.container-footer {}
-
-.web-logo-footer {
-  display: flex;
-  color: var(--button-colors, #4d5ae5);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17em;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-bottom: 16px;
-}
-
-.studio-logo-footer {
-  color: #f4f4fd;
-}
-
-.text-desc-foot {
-  width: 264px;
-  color: var(--classic-background-color);
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 /* Porfolio */
 /* sektion button */
 .section-but-port {
@@ -493,4 +457,31 @@ main section
   line-height: 1.5rem;
   /* 150% */
   letter-spacing: 0.025rem;
+}
+
+/* Footer section */
+.footer-section {
+  padding: 100px 0;
+  background: var(--nav-log-foot-color, #2e2f42);
+}
+
+.container-footer {
+  display: block;
+}
+
+.web-logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.studio-logo-footer {
+  color: #f4f4fd;
+
+}
+
+.text-desc-foot {
+  width: 264px;
+  color: var(--classic-background-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
