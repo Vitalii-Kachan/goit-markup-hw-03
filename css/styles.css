@@ -379,11 +379,11 @@ main section
 }
 
 .container-footer {
-  display: block;
+  display: inline-block;
 }
 
 .web-logo-footer {
-  display: inline-block;
+  display: flex;
   color: var(--button-colors, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
