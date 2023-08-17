@@ -378,12 +378,10 @@ main section
   background: var(--nav-log-foot-color, #2e2f42);
 }
 
-.container-footer {
-  display: inline-block;
-}
+.container-footer {}
 
 .web-logo-footer {
-  display: flex;
+  display: inline-block;
   color: var(--button-colors, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -458,6 +456,7 @@ main section
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding: 0;
 
 }
 
@@ -466,6 +465,7 @@ main section
   border: 1px solid var(--cornflower, #E7E9FC);
   list-style: none;
 }
+
 
 .desc-title-port {
   padding: 32px 16px;
