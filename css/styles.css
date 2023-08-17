@@ -49,6 +49,7 @@ img {
 }
 
 button {
+  display: block;
   font-family: inherit;
   cursor: pointer;
 }
@@ -206,11 +207,10 @@ main section
 
 
 .major-button {
-  display: flex;
   margin: 0;
   padding: 16px 32px;
   gap: 10px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   border: none;
   margin-bottom: 48px;
@@ -262,7 +262,7 @@ main section
   line-height: 1.5rem;
   /* 120% */
   letter-spacing: 0.02em;
-  text-align: center;
+  text-align: start;
 }
 
 .text-desc {
@@ -383,7 +383,7 @@ main section
 }
 
 .web-logo-footer {
-  display: flex;
+  display: inline-block;
   color: var(--button-colors, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
