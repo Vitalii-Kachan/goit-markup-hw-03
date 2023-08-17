@@ -462,10 +462,9 @@ main section
 }
 
 .images-link-port {
-  border: 1px solid var(--cornflower, #E7E9FC);
   width: calc((100% - 48px) / 3);
+  border: 1px solid var(--cornflower, #E7E9FC);
   list-style: none;
-
 }
 
 .desc-title-port {
