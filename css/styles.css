@@ -482,6 +482,8 @@ main section
   line-height: 1.55em;
   /* 120% */
   letter-spacing: 0.025em;
+  margin-bottom: 8px;
+
 }
 
 .text-desc-port {
