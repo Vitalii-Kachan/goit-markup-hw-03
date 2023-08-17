@@ -54,6 +54,10 @@ button {
   cursor: pointer;
 }
 
+.logo {
+  display: inline-block;
+}
+
 /* reset ends */
 .section {
   padding-bottom: 120px;
@@ -213,7 +217,6 @@ main section
   min-width: 169px;
   height: 56px;
   border: none;
-  margin-bottom: 48px;
   background: var(--button-colors, #4d5ae5);
   color: var(--primary-white-color, #ffffff);
   font-family: var (--prymary-fonts);
@@ -277,7 +280,6 @@ main section
 
 /* What are we doing section */
 .sections-what-are {
-  padding-top: 120px;
   background-color: #FFFFFF;
 }
 
@@ -360,7 +362,6 @@ main section
 }
 
 .desc-name {
-  padding: 8px;
   color: var(--adres-text-color, #434455);
   font-size: 1rem;
   font-style: normal;
@@ -381,7 +382,7 @@ main section
 .container-footer {}
 
 .web-logo-footer {
-  display: inline-block;
+  display: flex;
   color: var(--button-colors, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -464,6 +465,7 @@ main section
   width: calc((100% - 48px) / 3);
   border: 1px solid var(--cornflower, #E7E9FC);
   list-style: none;
+  flex-shrink: 0;
 }
 
 
@@ -477,10 +479,9 @@ main section
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.2em;
+  line-height: 1.55em;
   /* 120% */
-  letter-spacing: 0.02em;
-  margin-bottom: 8px
+  letter-spacing: 0.025em;
 }
 
 .text-desc-port {
@@ -489,5 +490,5 @@ main section
   font-weight: 400;
   line-height: 1.5rem;
   /* 150% */
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.025rem;
 }
